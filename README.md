@@ -6,9 +6,11 @@
 | ------- |
 | [0007-reverse-integer](https://github.com/rahul6777-cyber/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
@@ -26,4 +28,8 @@
 |  |
 | ------- |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
