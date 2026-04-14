@@ -7,6 +7,7 @@
 | [0007-reverse-integer](https://github.com/rahul6777-cyber/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
+| [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
 ## Array
 |  |
 | ------- |
