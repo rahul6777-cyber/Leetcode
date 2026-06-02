@@ -12,6 +12,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
@@ -33,6 +34,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 ## String
 |  |
 | ------- |
@@ -49,4 +51,8 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
+## Hash Table
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
