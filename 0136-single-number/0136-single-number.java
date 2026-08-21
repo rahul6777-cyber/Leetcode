@@ -1,10 +1,10 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int result =0;
-        for( int a : nums){
-           result ^= a;
+        int xorSum =0;
+        for( int n : nums){
+           xorSum  = xorSum ^ n;
         }
-        return result;
+        return xorSum;
 
         
     }
