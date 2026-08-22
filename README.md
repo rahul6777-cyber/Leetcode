@@ -14,6 +14,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -29,6 +30,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
@@ -37,6 +39,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
