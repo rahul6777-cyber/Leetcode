@@ -9,6 +9,7 @@
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
 ## Array
 |  |
@@ -32,6 +33,7 @@
 | [1470-shuffle-the-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -72,6 +74,7 @@
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Stack
 |  |
 | ------- |
@@ -93,6 +96,7 @@
 | ------- |
 | [0724-find-pivot-index](https://github.com/rahul6777-cyber/Leetcode/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Binary Search
 |  |
 | ------- |
@@ -102,4 +106,16 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/0053-maximum-subarray) |
+## Minimax
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
+## Game Theory
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 <!---LeetCode Topics End-->
