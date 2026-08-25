@@ -29,6 +29,7 @@
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0724-find-pivot-index](https://github.com/rahul6777-cyber/Leetcode/tree/master/0724-find-pivot-index) |
+| [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [1470-shuffle-the-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1480-running-sum-of-1d-array) |
@@ -64,6 +65,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 | [1672-richest-customer-wealth](https://github.com/rahul6777-cyber/Leetcode/tree/master/1672-richest-customer-wealth) |
 ## String
 |  |
@@ -120,4 +122,8 @@
 |  |
 | ------- |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
+## Simulation
+|  |
+| ------- |
+| [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 <!---LeetCode Topics End-->
