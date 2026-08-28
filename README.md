@@ -20,6 +20,7 @@
 | [0031-next-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 | [1672-richest-customer-wealth](https://github.com/rahul6777-cyber/Leetcode/tree/master/1672-richest-customer-wealth) |
@@ -127,5 +129,6 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0054-spiral-matrix) |
 | [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 <!---LeetCode Topics End-->
