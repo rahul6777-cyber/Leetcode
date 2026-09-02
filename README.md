@@ -28,6 +28,7 @@
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
+| [0162-find-peak-element](https://github.com/rahul6777-cyber/Leetcode/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/rahul6777-cyber/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
@@ -117,6 +118,7 @@
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/rahul6777-cyber/Leetcode/tree/master/0035-search-insert-position) |
+| [0162-find-peak-element](https://github.com/rahul6777-cyber/Leetcode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0704-binary-search](https://github.com/rahul6777-cyber/Leetcode/tree/master/0704-binary-search) |
