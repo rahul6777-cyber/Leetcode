@@ -7,6 +7,7 @@
 | [0007-reverse-integer](https://github.com/rahul6777-cyber/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
@@ -119,6 +120,7 @@
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/rahul6777-cyber/Leetcode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/rahul6777-cyber/Leetcode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
@@ -151,4 +153,8 @@
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
