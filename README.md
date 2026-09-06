@@ -35,6 +35,7 @@
 | [0217-contains-duplicate](https://github.com/rahul6777-cyber/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/rahul6777-cyber/Leetcode/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/rahul6777-cyber/Leetcode/tree/master/0724-find-pivot-index) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahul6777-cyber/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -89,6 +90,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
+| [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
@@ -99,6 +101,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
@@ -112,6 +115,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0724-find-pivot-index](https://github.com/rahul6777-cyber/Leetcode/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
@@ -125,6 +129,7 @@
 | [0162-find-peak-element](https://github.com/rahul6777-cyber/Leetcode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/rahul6777-cyber/Leetcode/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahul6777-cyber/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
