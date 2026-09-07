@@ -89,6 +89,7 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0940-distinct-subsequences-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -96,6 +97,7 @@
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
 | [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0940-distinct-subsequences-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Stack
