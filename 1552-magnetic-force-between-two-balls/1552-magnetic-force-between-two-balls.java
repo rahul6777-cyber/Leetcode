@@ -2,10 +2,10 @@ class Solution {
     static boolean isValidAns(int[] position,int m,int mid){
         int ballCount=1;
         int lastposition=0;
-        for(int i=0;i<position.length;i++){
+        for(int i=1;i<position.length;i++){
             //current ballposition - lastballposition kar rahe hai 
             //agar wo miniDistance se bada hoga to naye ball ko place karenge
-            if(position[i] - position[lastposition]>=mid){
+            if(position[i] - position[lastposition] >= mid){
 //naye ball ko placed kar rahe hain
                 ballCount++;
                 //lastposition ko update kar rahe hain
@@ -22,7 +22,7 @@ class Solution {
     public int maxDistance(int[] position, int m) {
        Arrays.sort(position);
         int n= position.length;
-        int s=0;
+        int s=1;
         int e= position[n-1] -position[0];
         int ans=-1;
 
