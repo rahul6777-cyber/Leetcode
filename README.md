@@ -67,6 +67,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 ## Sorting
 |  |
@@ -97,6 +98,7 @@
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0940-distinct-subsequences-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
@@ -128,6 +130,7 @@
 | [0217-contains-duplicate](https://github.com/rahul6777-cyber/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Prefix Sum
@@ -204,4 +207,8 @@
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
