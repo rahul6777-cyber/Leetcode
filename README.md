@@ -9,6 +9,7 @@
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
@@ -84,6 +85,7 @@
 |  |
 | ------- |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
+| [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 ## Matrix
 |  |
@@ -206,6 +208,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Enumeration
 |  |
