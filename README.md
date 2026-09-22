@@ -11,6 +11,7 @@
 | [0189-rotate-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/rahul6777-cyber/Leetcode/tree/master/0326-power-of-three) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
 | [3870-count-commas-in-range](https://github.com/rahul6777-cyber/Leetcode/tree/master/3870-count-commas-in-range) |
@@ -209,6 +210,7 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/rahul6777-cyber/Leetcode/tree/master/0326-power-of-three) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Enumeration
 |  |
