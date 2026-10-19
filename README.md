@@ -2,8 +2,8 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0007-reverse-integer](https://github.com/rahul6777-cyber/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
@@ -20,8 +20,8 @@
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -56,6 +56,7 @@
 | [1672-richest-customer-wealth](https://github.com/rahul6777-cyber/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -63,8 +64,8 @@
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/master/0031-next-permutation) |
@@ -76,8 +77,8 @@
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0015-3sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/rahul6777-cyber/Leetcode/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/rahul6777-cyber/Leetcode/tree/master/0217-contains-duplicate) |
@@ -85,15 +86,16 @@
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rahul6777-cyber/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0136-single-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0268-missing-number) |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0048-rotate-image](https://github.com/rahul6777-cyber/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -103,8 +105,8 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0443-string-compression](https://github.com/rahul6777-cyber/Leetcode/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
@@ -114,8 +116,8 @@
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahul6777-cyber/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0053-maximum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/rahul6777-cyber/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/rahul6777-cyber/Leetcode/tree/master/0118-pascals-triangle) |
@@ -127,20 +129,20 @@
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahul6777-cyber/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/rahul6777-cyber/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0217-contains-duplicate](https://github.com/rahul6777-cyber/Leetcode/tree/master/0217-contains-duplicate) |
@@ -150,15 +152,15 @@
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0724-find-pivot-index](https://github.com/rahul6777-cyber/Leetcode/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/rahul6777-cyber/Leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
@@ -173,71 +175,72 @@
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahul6777-cyber/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rahul6777-cyber/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0053-maximum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/0053-maximum-subarray) |
 ## Minimax
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Game Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Zero-Sum Game
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0054-spiral-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0054-spiral-matrix) |
 | [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Ternary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Newton's Method
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0069-sqrtx](https://github.com/rahul6777-cyber/Leetcode/tree/master/0069-sqrtx) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rahul6777-cyber/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rahul6777-cyber/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rahul6777-cyber/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0231-power-of-two](https://github.com/rahul6777-cyber/Leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/rahul6777-cyber/Leetcode/tree/master/0326-power-of-three) |
 | [0509-fibonacci-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0509-fibonacci-number) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Enumeration
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 ## Memoization
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/rahul6777-cyber/Leetcode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/rahul6777-cyber/Leetcode/tree/master/0509-fibonacci-number) |
 ## Bracket Sequences
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahul6777-cyber/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
