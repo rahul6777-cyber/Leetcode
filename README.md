@@ -19,6 +19,7 @@
 | [3870-count-commas-in-range](https://github.com/rahul6777-cyber/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,6 +64,7 @@
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -87,6 +89,7 @@
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rahul6777-cyber/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -229,6 +232,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
