@@ -1,42 +1,33 @@
 class Solution {
     public int sortableIntegers(int[] nums) {
-        int n = nums.length;
-        int ans = 0;
+        int n = nums.length, ans = 0;
 
         for (int k = 1; k <= n; k++) {
             if (n % k != 0) continue;
 
-            boolean valid = true;
+            boolean ok = true;
+            int prev = Integer.MIN_VALUE;
 
-            for (int i = 0; i < n; i += k) {
-                int breaks = 0;
+            for (int i = 0; i < n && ok; i += k) {
+                int start = i, drops = 0;
 
                 for (int j = i; j < i + k; j++) {
                     int next = i + (j - i + 1) % k;
-                    if (nums[j] > nums[next]) breaks++;
+                    if (nums[j] > nums[next]) {
+                        drops++;
+                        start = next;
+                    }
                 }
 
-                if (breaks > 1) {
-                    valid = false;
+                if (drops > 1 || nums[start] < prev) {
+                    ok = false;
                     break;
                 }
+
+                prev = nums[i + (start - i + k - 1) % k];
             }
 
-            if (!valid) continue;
-
-            int[] copy = nums.clone();
-            for (int i = 0; i < n; i += k) {
-                java.util.Arrays.sort(copy, i, i + k);
-            }
-
-            for (int i = 1; i < n; i++) {
-                if (copy[i] < copy[i - 1]) {
-                    valid = false;
-                    break;
-                }
-            }
-
-            if (valid) ans += k;
+            if (ok) ans += k;
         }
 
         return ans;
