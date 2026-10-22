@@ -65,6 +65,7 @@
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
