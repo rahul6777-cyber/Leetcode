@@ -63,6 +63,7 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -113,6 +114,7 @@
 | [1672-richest-customer-wealth](https://github.com/rahul6777-cyber/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -226,6 +228,7 @@
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/rahul6777-cyber/Leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rahul6777-cyber/Leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -260,8 +263,10 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/rahul6777-cyber/Leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/rahul6777-cyber/Leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 <!---LeetCode Topics End-->
