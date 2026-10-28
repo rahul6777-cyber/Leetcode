@@ -1,41 +1,61 @@
 class Solution {
     public int minCost(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
+        int m = grid.length, n = grid[0].length;
+        int W = 16;
 
-        boolean[][] dp = new boolean[n][1024];
+        long[][] dp = new long[n][W];
+        long[][] next = new long[n][W];
 
-        // Starting state: XOR = 0 before visiting the first cell
-        dp[0][0] = true;
+        dp[0][0] = 1L;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                int val = grid[i][j];
-                boolean[] next = new boolean[1024];
+                long[] cur = next[j];
+                java.util.Arrays.fill(cur, 0L);
+
+                int v = grid[i][j];
 
                 if (i == 0 && j == 0) {
-                    next[val] = true;
-                } else {
-                    boolean[] up = dp[j];
-                    boolean[] left = j > 0 ? dp[j - 1] : null;
+                    cur[v >> 6] |= 1L << (v & 63);
+                    continue;
+                }
 
-                    for (int x = 0; x < 1024; x++) {
-                        if (up[x]) {
-                            next[x ^ val] = true;
-                        }
+                long[] up = dp[j];
 
-                        if (left != null && left[x]) {
-                            next[x ^ val] = true;
-                        }
+                for (int b = 0; b < W; b++) {
+                    long bits = up[b];
+                    while (bits != 0) {
+                        int bit = Long.numberOfTrailingZeros(bits);
+                        int x = (b << 6) | bit;
+                        int y = x ^ v;
+                        cur[y >> 6] |= 1L << (y & 63);
+                        bits &= bits - 1;
                     }
                 }
 
-                dp[j] = next;
+                if (j > 0) {
+                    long[] left = next[j - 1];
+
+                    for (int b = 0; b < W; b++) {
+                        long bits = left[b];
+                        while (bits != 0) {
+                            int bit = Long.numberOfTrailingZeros(bits);
+                            int x = (b << 6) | bit;
+                            int y = x ^ v;
+                            cur[y >> 6] |= 1L << (y & 63);
+                            bits &= bits - 1;
+                        }
+                    }
+                }
             }
+
+            long[][] temp = dp;
+            dp = next;
+            next = temp;
         }
 
         for (int x = 0; x < 1024; x++) {
-            if (dp[n - 1][x]) {
+            if ((dp[n - 1][x >> 6] & (1L << (x & 63))) != 0) {
                 return x;
             }
         }
