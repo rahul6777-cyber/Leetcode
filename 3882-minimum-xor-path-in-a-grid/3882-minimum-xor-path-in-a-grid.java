@@ -1,40 +1,45 @@
-import java.util.*;
-
 class Solution {
     public int minCost(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
 
-        Set<Integer>[][] dp = new HashSet[m][n];
+        boolean[][] dp = new boolean[n][1024];
+
+        // Starting state: XOR = 0 before visiting the first cell
+        dp[0][0] = true;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                dp[i][j] = new HashSet<>();
-            }
-        }
+                int val = grid[i][j];
+                boolean[] next = new boolean[1024];
 
-        dp[0][0].add(grid[0][0]);
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
                 if (i == 0 && j == 0) {
-                    continue;
-                }
+                    next[val] = true;
+                } else {
+                    boolean[] up = dp[j];
+                    boolean[] left = j > 0 ? dp[j - 1] : null;
 
-                if (i > 0) {
-                    for (int x : dp[i - 1][j]) {
-                        dp[i][j].add(x ^ grid[i][j]);
+                    for (int x = 0; x < 1024; x++) {
+                        if (up[x]) {
+                            next[x ^ val] = true;
+                        }
+
+                        if (left != null && left[x]) {
+                            next[x ^ val] = true;
+                        }
                     }
                 }
 
-                if (j > 0) {
-                    for (int x : dp[i][j - 1]) {
-                        dp[i][j].add(x ^ grid[i][j]);
-                    }
-                }
+                dp[j] = next;
             }
         }
 
-        return Collections.min(dp[m - 1][n - 1]);
+        for (int x = 0; x < 1024; x++) {
+            if (dp[n - 1][x]) {
+                return x;
+            }
+        }
+
+        return 0;
     }
 }
