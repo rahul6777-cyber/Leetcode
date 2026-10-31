@@ -1,78 +1,56 @@
-import java.util.Arrays;
-
 class Solution {
     static final int MOD = 1_000_000_007;
 
-    int[][][] memo;
-    int[][] grid;
-    int m, n;
-
-    int resolve(int r, int c, int dir) {
-        if (r >= m || c >= n) return -1;
-
-        if (memo[r][c][dir] != -2) {
-            return memo[r][c][dir];
-        }
-
-        if (grid[r][c] == 0) {
-            return memo[r][c][dir] = r * n + c;
-        }
-
-        if (dir == 0) {
-            // Entered mirror moving right: turn down
-            return memo[r][c][dir] = resolve(r + 1, c, 1);
-        } else {
-            // Entered mirror moving down: turn right
-            return memo[r][c][dir] = resolve(r, c + 1, 0);
-        }
-    }
-
     public int uniquePaths(int[][] grid) {
-        this.grid = grid;
-        m = grid.length;
-        n = grid[0].length;
+        int m = grid.length, n = grid[0].length;
+        int size = m * n;
 
-        memo = new int[m][n][2];
+        int[] right = new int[size];
+        int[] down = new int[size];
 
-        for (int[][] row : memo) {
-            for (int[] cell : row) {
-                Arrays.fill(cell, -2);
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                int p = i * n + j;
+
+                if (grid[i][j] == 0) {
+                    right[p] = p;
+                    down[p] = p;
+                } else {
+                    right[p] = (i + 1 < m)
+                        ? down[(i + 1) * n + j] : -1;
+
+                    down[p] = (j + 1 < n)
+                        ? right[i * n + j + 1] : -1;
+                }
             }
         }
 
-        long[][] dp = new long[m][n];
-        dp[0][0] = 1;
+        long[] dp = new long[size];
+        dp[0] = 1;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (dp[i][j] == 0) continue;
+                int p = i * n + j;
+                long ways = dp[p];
 
-                // Move right
+                if (ways == 0) continue;
+
                 if (j + 1 < n) {
-                    int pos = resolve(i, j + 1, 0);
-
-                    if (pos != -1) {
-                        int r = pos / n;
-                        int c = pos % n;
-
-                        dp[r][c] = (dp[r][c] + dp[i][j]) % MOD;
+                    int q = right[i * n + j + 1];
+                    if (q != -1) {
+                        dp[q] = (dp[q] + ways) % MOD;
                     }
                 }
 
-                // Move down
                 if (i + 1 < m) {
-                    int pos = resolve(i + 1, j, 1);
-
-                    if (pos != -1) {
-                        int r = pos / n;
-                        int c = pos % n;
-
-                        dp[r][c] = (dp[r][c] + dp[i][j]) % MOD;
+                    int q = down[(i + 1) * n + j];
+                    if (q != -1) {
+                        dp[q] = (dp[q] + ways) % MOD;
                     }
                 }
             }
         }
 
-        return (int) dp[m - 1][n - 1];
+        return (int) dp[size - 1];
     }
 }
