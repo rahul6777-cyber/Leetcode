@@ -19,6 +19,7 @@
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
 | [2409-count-days-spent-together](https://github.com/rahul6777-cyber/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/rahul6777-cyber/Leetcode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3870-count-commas-in-range](https://github.com/rahul6777-cyber/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
@@ -71,6 +72,7 @@
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3665-twisted-mirror-path-count](https://github.com/rahul6777-cyber/Leetcode/tree/main/3665-twisted-mirror-path-count/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/rahul6777-cyber/Leetcode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rahul6777-cyber/Leetcode/tree/main/3841-palindromic-path-queries-in-a-tree/) | Hard |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
