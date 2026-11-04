@@ -2,126 +2,125 @@
 import java.util.*;
 
 class Solution {
-
-    class WindowMedian {
-        TreeMap<Integer, Integer> low = new TreeMap<>();
-        TreeMap<Integer, Integer> high = new TreeMap<>();
-
-        int lowSize = 0, highSize = 0;
-        long lowSum = 0, highSum = 0;
-
-        void add(int num) {
-            if (low.isEmpty() || num <= low.lastKey()) {
-                low.merge(num, 1, Integer::sum);
-                lowSize++;
-                lowSum += num;
-            } else {
-                high.merge(num, 1, Integer::sum);
-                highSize++;
-                highSum += num;
-            }
-            balance();
-        }
-
-        void remove(int num) {
-            if (low.containsKey(num)) {
-                erase(low, num);
-                lowSize--;
-                lowSum -= num;
-            } else {
-                erase(high, num);
-                highSize--;
-                highSum -= num;
-            }
-            balance();
-        }
-
-        void erase(TreeMap<Integer, Integer> map, int num) {
-            int count = map.get(num);
-            if (count == 1) map.remove(num);
-            else map.put(num, count - 1);
-        }
-
-        void balance() {
-            while (lowSize > highSize + 1) {
-                int v = low.lastKey();
-                erase(low, v);
-                lowSize--;
-                lowSum -= v;
-
-                high.merge(v, 1, Integer::sum);
-                highSize++;
-                highSum += v;
-            }
-
-            while (lowSize < highSize) {
-                int v = high.firstKey();
-                erase(high, v);
-                highSize--;
-                highSum -= v;
-
-                low.merge(v, 1, Integer::sum);
-                lowSize++;
-                lowSum += v;
-            }
-        }
-
-        long getCost() {
-            long median = low.lastKey();
-
-            return median * lowSize - lowSum
-                 + highSum - median * highSize;
-        }
-    }
-
     public long minOperations(int[] nums, int x, int k) {
         int n = nums.length;
-        int m = n - x + 1;
 
-        long[] cost = new long[m];
+        int[] sorted = nums.clone();
+        Arrays.sort(sorted);
 
-        // Calculate cost of every window
-        WindowMedian wm = new WindowMedian();
+        int[] vals = new int[n];
+        int size = 0;
 
-        for (int i = 0; i < n; i++) {
-            wm.add(nums[i]);
-
-            if (i >= x) {
-                wm.remove(nums[i - x]);
-            }
-
-            if (i >= x - 1) {
-                cost[i - x + 1] = wm.getCost();
+        for (int v : sorted) {
+            if (size == 0 || vals[size - 1] != v) {
+                vals[size++] = v;
             }
         }
 
-        // DP: minimum cost to select exactly j windows
-        long INF = Long.MAX_VALUE / 4;
+        int[] bit = new int[size + 1];
+        long[] sum = new long[size + 1];
 
-        long[] prev = new long[n + 1];
-        long[] curr = new long[n + 1];
+        long[] cost = new long[n - x + 1];
+
+        long total = 0;
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            int id = Arrays.binarySearch(vals, 0, size, nums[i]) + 1;
+            update(bit, sum, id, 1, nums[i]);
+            total += nums[i];
+            count++;
+
+            if (count > x) {
+                int old = nums[i - x];
+                int idx = Arrays.binarySearch(vals, 0, size, old) + 1;
+                update(bit, sum, idx, -1, -old);
+                total -= old;
+                count--;
+            }
+
+            if (count == x) {
+                int mid = kth(bit, (x + 1) / 2);
+                long median = vals[mid - 1];
+
+                long leftCount = query(bit, mid);
+                long leftSum = querySum(sum, mid);
+
+                cost[i - x + 1] =
+                    median * leftCount - leftSum
+                    + (total - leftSum)
+                    - median * (x - leftCount);
+            }
+        }
+
+        long INF = Long.MAX_VALUE / 4;
+        long[] dp = new long[n + 1];
+        long[] next = new long[n + 1];
+
+        Arrays.fill(dp, 0);
 
         for (int j = 1; j <= k; j++) {
-            Arrays.fill(curr, INF);
+            Arrays.fill(next, INF);
 
             for (int i = 1; i <= n; i++) {
-                // Skip current element
-                curr[i] = curr[i - 1];
+                next[i] = next[i - 1];
 
-                // Select window ending at i-1
-                if (i >= x && prev[i - x] != INF) {
-                    curr[i] = Math.min(
-                        curr[i],
-                        prev[i - x] + cost[i - x]
+                if (i >= x && dp[i - x] != INF) {
+                    next[i] = Math.min(
+                        next[i],
+                        dp[i - x] + cost[i - x]
                     );
                 }
             }
 
-            long[] temp = prev;
-            prev = curr;
-            curr = temp;
+            long[] temp = dp;
+            dp = next;
+            next = temp;
         }
 
-        return prev[n];
+        return dp[n];
+    }
+
+    private void update(int[] bit, long[] sum,
+                        int i, int delta, long value) {
+        while (i < bit.length) {
+            bit[i] += delta;
+            sum[i] += value;
+            i += i & -i;
+        }
+    }
+
+    private int query(int[] bit, int i) {
+        int res = 0;
+        while (i > 0) {
+            res += bit[i];
+            i -= i & -i;
+        }
+        return res;
+    }
+
+    private long querySum(long[] bit, int i) {
+        long res = 0;
+        while (i > 0) {
+            res += bit[i];
+            i -= i & -i;
+        }
+        return res;
+    }
+
+    private int kth(int[] bit, int k) {
+        int idx = 0;
+        int step = Integer.highestOneBit(bit.length - 1);
+
+        for (; step > 0; step >>= 1) {
+            int next = idx + step;
+
+            if (next < bit.length && bit[next] < k) {
+                idx = next;
+                k -= bit[next];
+            }
+        }
+
+        return idx + 1;
     }
 }
