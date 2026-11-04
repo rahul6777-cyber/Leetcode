@@ -19,6 +19,7 @@
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2235-add-two-integers](https://github.com/rahul6777-cyber/Leetcode/tree/master/2235-add-two-integers) |
 | [2409-count-days-spent-together](https://github.com/rahul6777-cyber/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/rahul6777-cyber/Leetcode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3870-count-commas-in-range](https://github.com/rahul6777-cyber/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rahul6777-cyber/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -68,6 +69,7 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahul6777-cyber/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3665-twisted-mirror-path-count](https://github.com/rahul6777-cyber/Leetcode/tree/main/3665-twisted-mirror-path-count/) | Medium |
@@ -156,6 +158,7 @@
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3665-twisted-mirror-path-count](https://github.com/rahul6777-cyber/Leetcode/tree/main/3665-twisted-mirror-path-count/) | Medium |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rahul6777-cyber/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Stack
@@ -180,6 +183,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/rahul6777-cyber/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -269,6 +273,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -297,4 +302,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rahul6777-cyber/Leetcode/tree/main/3841-palindromic-path-queries-in-a-tree/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 <!---LeetCode Topics End-->
