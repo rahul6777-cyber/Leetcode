@@ -3,7 +3,8 @@ import java.util.*;
 
 class Solution {
     public int[] assignTasks(int[] servers, int[] tasks) {
-        int n = servers.length, m = tasks.length;
+        int n = servers.length;
+        int m = tasks.length;
 
         PriorityQueue<Integer> free = new PriorityQueue<>(
             (a, b) -> servers[a] != servers[b]
@@ -12,12 +13,15 @@ class Solution {
         );
 
         PriorityQueue<long[]> busy = new PriorityQueue<>(
-            (a, b) -> a[0] != b[0]
-                ? Long.compare(a[0], b[0])
-                : Long.compare(a[1], b[1])
+            (a, b) -> {
+                int c = Long.compare(a[0], b[0]);
+                return c != 0 ? c : Long.compare(a[1], b[1]);
+            }
         );
 
-        for (int i = 0; i < n; i++) free.offer(i);
+        for (int i = 0; i < n; i++) {
+            free.offer(i);
+        }
 
         int[] ans = new int[m];
         long time = 0;
@@ -46,4 +50,3 @@ class Solution {
         return ans;
     }
 }
-
