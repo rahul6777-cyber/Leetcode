@@ -1,17 +1,17 @@
 class Solution {
     public int numOfSubarrays(int[] arr) {
-        long odd = 0, even = 1;
-        long ans = 0;
-        int mod = 1_000_000_007;
+        final int MOD = 1_000_000_007;
+        long odd = 0, even = 1, ans = 0;
 
         for (int x : arr) {
-            if ((x & 1) == 1) {
-                long temp = odd;
+            if ((x & 1) != 0) {
+                long t = odd;
                 odd = even;
-                even = temp;
+                even = t;
             }
 
-            ans = (ans + odd) % mod;
+            ans += odd;
+            if (ans >= MOD) ans -= MOD;
             even++;
         }
 
