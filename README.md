@@ -154,6 +154,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahul6777-cyber/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2409-count-days-spent-together](https://github.com/rahul6777-cyber/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rahul6777-cyber/Leetcode/tree/main/3841-palindromic-path-queries-in-a-tree/) | Hard |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
@@ -253,6 +254,7 @@
 | [0867-transpose-matrix](https://github.com/rahul6777-cyber/Leetcode/tree/master/0867-transpose-matrix) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/rahul6777-cyber/Leetcode/tree/main/1606-find-servers-that-handled-most-number-of-requests/) | Hard |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 ## Ternary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
