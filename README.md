@@ -104,6 +104,7 @@
 | [0443-string-compression](https://github.com/rahul6777-cyber/Leetcode/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0567-permutation-in-string) |
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/rahul6777-cyber/Leetcode/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -156,6 +157,7 @@
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2409-count-days-spent-together](https://github.com/rahul6777-cyber/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/rahul6777-cyber/Leetcode/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rahul6777-cyber/Leetcode/tree/main/3841-palindromic-path-queries-in-a-tree/) | Hard |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
 ## Dynamic Programming
@@ -172,6 +174,7 @@
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/rahul6777-cyber/Leetcode/tree/master/1872-stone-game-viii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/rahul6777-cyber/Leetcode/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3665-twisted-mirror-path-count](https://github.com/rahul6777-cyber/Leetcode/tree/main/3665-twisted-mirror-path-count/) | Medium |
 | [3693-climbing-stairs-ii](https://github.com/rahul6777-cyber/Leetcode/tree/main/3693-climbing-stairs-ii/) | Medium |
