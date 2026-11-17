@@ -1,42 +1,65 @@
 
+import java.util.*;
+
 class Solution {
     public int minimumChanges(String s, int k) {
         int n = s.length();
+        char[] arr = s.toCharArray();
+
         int[][] cost = new int[n][n];
 
-        for (int l = 0; l < n; l++) {
-            for (int r = l + 1; r < n; r++) {
-                int len = r - l + 1;
-                cost[l][r] = Integer.MAX_VALUE;
+        // Precompute valid divisors
+        ArrayList<Integer>[] divisors = new ArrayList[n + 1];
 
-                for (int d = 1; d < len; d++) {
-                    if (len % d != 0) continue;
+        for (int len = 2; len <= n; len++) {
+            divisors[len] = new ArrayList<>();
 
+            for (int d = 1; d < len; d++) {
+                if (len % d == 0) {
+                    divisors[len].add(d);
+                }
+            }
+        }
+
+        // Calculate minimum changes for every substring
+        for (int len = 2; len <= n; len++) {
+            for (int d : divisors[len]) {
+                int groups = len / d;
+
+                for (int i = 0; i + len <= n; i++) {
                     int changes = 0;
+                    int end = i + len;
 
-                    for (int rem = 0; rem < d; rem++) {
-                        int left = rem;
-                        int right = rem + ((len - 1 - rem) / d) * d;
+                    for (int r = 0; r < d; r++) {
+                        int left = i + r;
+                        int right = end - d + r;
 
-                        while (left < right) {
-                            if (s.charAt(l + left) != s.charAt(l + right)) {
+                        for (int t = 0; t < groups / 2; t++) {
+                            if (arr[left] != arr[right]) {
                                 changes++;
                             }
+
                             left += d;
                             right -= d;
                         }
                     }
 
-                    cost[l][r] = Math.min(cost[l][r], changes);
+                    int j = i + len - 1;
+                    cost[i][j] = Math.min(
+                        cost[i][j] == 0 && d == divisors[len].get(0)
+                            ? changes : cost[i][j],
+                        changes
+                    );
                 }
             }
         }
 
-        int INF = 1000000;
+        // Dynamic Programming
+        final int INF = 1000000;
         int[][] dp = new int[k + 1][n + 1];
 
         for (int[] row : dp) {
-            java.util.Arrays.fill(row, INF);
+            Arrays.fill(row, INF);
         }
 
         dp[0][0] = 0;
@@ -44,8 +67,6 @@ class Solution {
         for (int g = 1; g <= k; g++) {
             for (int i = 2 * g; i <= n; i++) {
                 for (int j = 2 * (g - 1); j <= i - 2; j++) {
-                    if (dp[g - 1][j] == INF) continue;
-
                     dp[g][i] = Math.min(
                         dp[g][i],
                         dp[g - 1][j] + cost[j][i - 1]
@@ -57,5 +78,3 @@ class Solution {
         return dp[k][n];
     }
 }
-
-
