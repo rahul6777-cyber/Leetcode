@@ -73,6 +73,7 @@
 | [1882-process-tasks-using-servers](https://github.com/rahul6777-cyber/Leetcode/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/rahul6777-cyber/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahul6777-cyber/Leetcode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2643-row-with-maximum-ones](https://github.com/rahul6777-cyber/Leetcode/tree/master/2643-row-with-maximum-ones) |
 | [2747-count-zero-request-servers](https://github.com/rahul6777-cyber/Leetcode/tree/main/2747-count-zero-request-servers/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
@@ -117,6 +118,7 @@
 | [0905-sort-array-by-parity](https://github.com/rahul6777-cyber/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rahul6777-cyber/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahul6777-cyber/Leetcode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2747-count-zero-request-servers](https://github.com/rahul6777-cyber/Leetcode/tree/main/2747-count-zero-request-servers/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Bit Manipulation
@@ -192,6 +194,7 @@
 | ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/rahul6777-cyber/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahul6777-cyber/Leetcode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/rahul6777-cyber/Leetcode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
