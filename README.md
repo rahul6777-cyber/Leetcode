@@ -160,6 +160,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahul6777-cyber/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/rahul6777-cyber/Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/rahul6777-cyber/Leetcode/tree/main/2124-check-if-all-as-appears-before-all-bs/) | Easy |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/rahul6777-cyber/Leetcode/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2409-count-days-spent-together](https://github.com/rahul6777-cyber/Leetcode/tree/main/2409-count-days-spent-together/) | Easy |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/rahul6777-cyber/Leetcode/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
