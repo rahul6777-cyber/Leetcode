@@ -1,16 +1,19 @@
 class Solution {
     public int maxLength(int[] nums) {
-        int n = nums.length, ans = 1;
+        int n = nums.length;
+        int ans = 1;
 
         for (int i = 0; i < n; i++) {
-            long prod = 1, g = 0, l = 1;
+            long prod = 1, gcd = 0, lcm = 1;
 
             for (int j = i; j < n; j++) {
-                prod *= nums[j];
-                g = gcd(g, nums[j]);
-                l = l / gcd(l, nums[j]) * nums[j];
+                int x = nums[j];
 
-                if (prod == g * l) {
+                prod *= x;
+                gcd = gcd(gcd, x);
+                lcm = lcm / gcd(lcm, x) * x;
+
+                if (prod == gcd * lcm) {
                     ans = Math.max(ans, j - i + 1);
                 }
             }
@@ -19,6 +22,11 @@ class Solution {
     }
 
     private long gcd(long a, long b) {
-        return b == 0 ? a : gcd(b, a % b);
+        while (b != 0) {
+            long t = b;
+            b = a % b;
+            a = t;
+        }
+        return a;
     }
 }
