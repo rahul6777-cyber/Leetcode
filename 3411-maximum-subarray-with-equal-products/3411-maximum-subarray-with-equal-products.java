@@ -4,28 +4,29 @@ class Solution {
         int ans = 1;
 
         for (int i = 0; i < n; i++) {
-            long prod = 1, gcd = 0, lcm = 1;
+            long prod = 1;
+            int gcd = 0, lcm = 1;
 
             for (int j = i; j < n; j++) {
-                int x = nums[j];
+                prod *= nums[j];
 
-                prod *= x;
-                gcd = gcd(gcd, x);
-                lcm = lcm / gcd(lcm, x) * x;
+                gcd = gcd(gcd, nums[j]);
+                lcm = (lcm / gcd(lcm, nums[j])) * nums[j];
 
-                if (prod == gcd * lcm) {
+                if (prod == (long) gcd * lcm) {
                     ans = Math.max(ans, j - i + 1);
                 }
             }
         }
+
         return ans;
     }
 
-    private long gcd(long a, long b) {
+    private int gcd(int a, int b) {
         while (b != 0) {
-            long t = b;
+            int temp = b;
             b = a % b;
-            a = t;
+            a = temp;
         }
         return a;
     }
