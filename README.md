@@ -97,6 +97,7 @@
 | [3876-construct-uniform-parity-array-ii](https://github.com/rahul6777-cyber/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rahul6777-cyber/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -220,6 +221,7 @@
 | [3483-unique-3-digit-even-numbers](https://github.com/rahul6777-cyber/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahul6777-cyber/Leetcode/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 | [3718-smallest-missing-multiple-of-k](https://github.com/rahul6777-cyber/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -248,6 +250,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/rahul6777-cyber/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/rahul6777-cyber/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/rahul6777-cyber/Leetcode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -391,4 +394,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3411-maximum-subarray-with-equal-products](https://github.com/rahul6777-cyber/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
+## Rolling Hash
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Suffix Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 <!---LeetCode Topics End-->
