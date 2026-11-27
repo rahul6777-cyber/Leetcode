@@ -99,6 +99,7 @@
 | [3886-sum-of-sortable-integers](https://github.com/rahul6777-cyber/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3934-smallest-unique-subarray](https://github.com/rahul6777-cyber/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/rahul6777-cyber/Leetcode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/rahul6777-cyber/Leetcode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -192,6 +193,7 @@
 | [3665-twisted-mirror-path-count](https://github.com/rahul6777-cyber/Leetcode/tree/main/3665-twisted-mirror-path-count/) | Medium |
 | [3693-climbing-stairs-ii](https://github.com/rahul6777-cyber/Leetcode/tree/main/3693-climbing-stairs-ii/) | Medium |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rahul6777-cyber/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/rahul6777-cyber/Leetcode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -207,6 +209,7 @@
 | [0678-valid-parenthesis-string](https://github.com/rahul6777-cyber/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/rahul6777-cyber/Leetcode/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/rahul6777-cyber/Leetcode/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/rahul6777-cyber/Leetcode/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
