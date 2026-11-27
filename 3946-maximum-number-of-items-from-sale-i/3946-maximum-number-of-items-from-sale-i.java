@@ -1,21 +1,28 @@
 class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
-        int n = items.length;
-        int[] dp = new int[budget + 1];
-        int minPrice = Integer.MAX_VALUE;
+        int[] freq = new int[1501];
+        int minPrice = 1501;
 
         for (int[] item : items) {
-            int factor = item[0];
-            int price = item[1];
-            minPrice = Math.min(minPrice, price);
+            freq[item[0]]++;
+            minPrice = Math.min(minPrice, item[1]);
+        }
 
-            int count = 0;
-            for (int[] x : items) {
-                if (x[0] % factor == 0) count++;
+        int[] count = new int[1501];
+
+        for (int f = 1; f <= 1500; f++) {
+            for (int m = f; m <= 1500; m += f) {
+                count[f] += freq[m];
             }
+        }
 
-            for (int b = budget; b >= price; b--) {
-                dp[b] = Math.max(dp[b], dp[b - price] + count);
+        int[] dp = new int[budget + 1];
+
+        for (int[] item : items) {
+            int f = item[0], p = item[1];
+
+            for (int b = budget; b >= p; b--) {
+                dp[b] = Math.max(dp[b], dp[b - p] + count[f]);
             }
         }
 
