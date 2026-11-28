@@ -4,44 +4,49 @@ class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
         int n = items.length;
         int[] cnt = new int[n + 1];
-        int minPrice = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;
 
-        for (int[] item : items) {
-            cnt[item[0]]++;
-            minPrice = Math.min(minPrice, item[1]);
+        for (int[] x : items) {
+            cnt[x[0]]++;
+            min = Math.min(min, x[1]);
         }
 
         int[] gain = new int[n + 1];
 
-        for (int f = 1; f <= n; f++) {
-            for (int j = f; j <= n; j += f) {
-                gain[f] += cnt[j];
+        for (int i = 1; i <= n; i++) {
+            for (int j = i; j <= n; j += i) {
+                gain[i] += cnt[j];
             }
-            gain[f]--;
+            gain[i]--;
         }
 
-        int[][] deals = new int[n][2];
-        int size = 0;
+        long[] deals = new long[n];
+        int k = 0;
+        long limit = 2L * min;
 
-        for (int[] item : items) {
-            int f = item[0], p = item[1];
-            if (gain[f] > 0 && p < 2L * minPrice) {
-                deals[size][0] = p;
-                deals[size++][1] = gain[f];
+        for (int[] x : items) {
+            int p = x[1], g = gain[x[0]];
+
+            if (g > 0 && p < limit) {
+                deals[k++] = ((long) p << 32) | (g & 0xffffffffL);
             }
         }
 
-        Arrays.sort(deals, 0, size, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(deals, 0, k);
 
         long ans = 0;
-        for (int i = 0; i < size && budget >= deals[i][0]; i++) {
-            int price = deals[i][0];
-            int count = Math.min(deals[i][1], budget / price);
-            ans += 2L * count;
-            budget -= count * price;
+
+        for (int i = 0; i < k && budget > 0; i++) {
+            int p = (int) (deals[i] >>> 32);
+            int g = (int) deals[i];
+
+            int take = Math.min(g, budget / p);
+            ans += 2L * take;
+            budget -= take * p;
         }
 
-        ans += budget / minPrice;
+        ans += budget / min;
+
         return (int) ans;
     }
 }
